@@ -1,6 +1,10 @@
 #ifndef HERMES
 #define HERMES
 
+
+// things need to be change bacause the msg load lenght is not necessairly the max msg lenght
+
+
 //structure that hold the clear packet, with his value and his key
 typedef struct ClearPacket{
     char msg[1024];
